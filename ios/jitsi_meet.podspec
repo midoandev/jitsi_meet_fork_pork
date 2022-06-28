@@ -15,7 +15,7 @@ Jitsi Meet Plugin
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.source           = { :git => 'https://scm.getih.net/callink/jitsisdk-ios.git' }
+  s.dependency 'JitsiMeetSDK', '3.3.0'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
